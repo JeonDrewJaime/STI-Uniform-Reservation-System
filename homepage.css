@@ -1,0 +1,36 @@
+::-webkit-scrollbar{
+    width:0.5vmax;
+}
+
+::-webkit-scrollbar-track{
+    background: #33345a;
+}
+
+::-webkit-scrollbar-thumb{
+    background: rgb(161, 0, 140);
+}
+
+*{
+    margin:0;
+    padding:0;
+    scroll-behavior:smooth;
+}
+
+#loader{
+    display:grid;
+    background: #faea06;
+    height:100%;
+    width:100%;
+    z-index:10;
+    position:fixed;
+   }
+
+   #load{
+    justify-self: center;
+    align-self: center;
+    object-fit: contain;
+    width:40%;
+    height:40%;
+    margin-top:-5%;
+  }
+  
