@@ -34,3 +34,9 @@
     margin-top:-5%;
   }
   
+  #nav-bar {
+  background : white; 
+  position: fixed;
+  display: grid;
+  grid-template-columns: repeat(5,50%);
+}
