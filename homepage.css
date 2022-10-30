@@ -37,6 +37,7 @@
     margin-top:-5%;
   }
   
+<<<<<<< HEAD
 
   #navbar {
     display:grid;
@@ -186,3 +187,11 @@ h2 {
   height:20%;
   justify-self: center;
 }
+=======
+  #nav-bar {
+  background : white; 
+  position: fixed;
+  display: grid;
+  grid-template-columns: repeat(5,50%);
+}
+>>>>>>> c43ea632d2e738523b0e162354c3cd02230a00cb
